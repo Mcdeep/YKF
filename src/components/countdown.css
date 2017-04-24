@@ -1,0 +1,38 @@
+.countdown{
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.countdown li{
+  display:  inline-block;
+  margin-right: 1em;
+  width: 5em;
+}
+.countdown li .numbers {
+  display: block;
+	font-family: "Univers LT Std", sans-serif;
+	font-size: 4em;
+	line-height: 1.5;
+	margin: 0 auto;
+	text-align: center;
+	width: 90px;
+  color: wheat;
+	background: rgba(0,0,0,0.8);
+	border-radius: 5px;
+}
+
+.countdown .description{
+	font-size: 1.1em;
+	font-variant: small-caps;
+	line-height: 1.5;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+@media only screen and (max-width: 450px)  {
+  .countdown {
+    margin-left: -2em;
+  }
+}

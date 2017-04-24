@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Cinzel+Decorative|Fredericka+the+Great');
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 6em;
+    margin-top:50px;
+	color:#b90202;
+}
+
+h3{
+	font-family: 'Fredericka the Great', cursive;
+	text-align: center;
+	margin: 10px;
+}
+
+
+h5{
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+h2{
+	margin-top:10px; 
+	font-family: 'Cinzel Decorative', cursive;
+	text-transform: uppercase;
+	color: black;
+}
+
+.tagline{
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	font-variant: small-caps;
+	margin-bottom: 1px;
+}
+

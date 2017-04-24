@@ -1,0 +1,15 @@
+
+.event_button:hover{
+  cursor: pointer;
+}
+
+.event_button{
+  width: 50px;
+}
+
+.fullSize{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
